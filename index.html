@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+<body>
+    <div class="portfolio">
+        <nav>
+            <h2 class="logo">Ella_<span>Sri Lanka</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About ella</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#thingstodo">Things To Do</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h4>Hello, welcome to</h4>
+            <h1>Ella<span>  Sri Lanka</span></h1>
+            <h3>Witness The Country Charm</h3>
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="main">
+            <img src="4.jpg" alt="propic">
+            <div class="atext">
+                <h2>About Ella</h2>
+                
+                <p>Ella ( Lit. "water fall"; Tamil: எல்ல) is a small town in the Badulla District of Uva Province, Sri Lanka governed by an Urban Council. It is approximately 200 kilometres (120 mi) east of Colombo and is situated at an elevation of 1,041 metres (3,415 ft) above sea level. The area has a rich bio-diversity, dense with numerous varieties of flora and fauna. Ella is surrounded by hills covered with cloud forests and tea plantations. The town has a cooler climate than surrounding lowlands, due to its elevation. The Ella Gap allows views across the southern plains of Sri Lanka.</p>
+            
+            </div>
+        </div>
+    </section>
+
+</div>
+
+
+    <section id="location">
+        <div class="main">
+            <img src="3.jpg" alt="propic">
+            <div class="atext">
+                <h2>Location</h2>
+                
+                <p>District: Badulla District<br>
+                    Elevation: 1,041 m (3,415 ft)<br>
+                    Post Code: 90090<br>
+                    Province: Uva Province<br>
+                    <a href="https://www.google.com/maps?q=latitude,longitude" target="https://goo.gl/maps/soMuRJD5YGF28K5y8">Go to Google Maps</a>
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div id="thingstodo">
+        <div class="title">
+            <h3>Things To Do In Ella</h3>
+        </div>
+
+        <div class="box">
+            <div class="sec">
+                <h5>Ride Aboard Tthe KANDY To ELLA Train</h5>
+                <img src="7.jpg" alt="primary" style="width: 100px;">
+                <p id="a1">Sounds a little like hell, but trust us, the train ride from Kandy to Ella is the best thing you'll do in Sri Lanka (read our complete guide to the Kandy to Ella train here — it also includes how to book and our insider travel tips). 
+
+                    Winding through misty forests, verdant tea plantations; over gushing waterfalls and streams, and past colourful towns and excitable locals, this is, in our opinion, the most picturesque train ride in the world. But it's not just the scenery that makes this train ride so incredible. It's also the vibe. </p>
+                
+            </div>
+
+            <div class="sec">
+                <h5>Admire ELLA’S Famous NINE-ARCH BRIDGE</h5>
+                <img src="4.jpg" alt="secondary" style="width: 100px;">
+                <p>
+                    It's astonishing to think that a bridge could drive tourists in droves to Ella, yet the Nine Arch Bridge, just outside the town, has done just that. 
+
+The Nine Arch Bridge is flanked by verdant forests and tea plantations, standing proudly across the valley below. On misty days, a low cloud hangs in the valley, giving the whole area a moody, mystical feel.
+
+Completed in 1921, the Nine Arch Bridge is built entirely out of brick, rock and cement, with no metal used in its construction - an engineering feat back in those days. Spanning 91 meters at a height of 24 feet, the bridge is on the famous Kandy to Bandarawela (via Ella) train line, with trains passing around five times a day, depending on the ever-changing Sri Lankan train timetable.  </p>
+            </div>
+
+            <div class="sec">
+                <h5> Hike Up The Famous ELLA ROCK</h5>
+                <img src="6.jpg" alt="higher" style="width: 100px;">
+                <p>For those who seek spectacular views everywhere they go, the summit of Ella rock, with its views over Ella, Little Adam's Peak, and Ella Gap, is one vantage point you don’t want to miss out on. 
+
+                    Starting at the famous Ella train station, you’ll follow the Ella to Kandy train line past many beautiful waterfalls, bridges, tea plantations, and homes, before starting your ascent towards the Ella Rock summit - hopefully with a King Coconut in hand for some extra energy. We definitely needed it; the hike to the summit under that fierce sun is tough!  </p>
+            </div>
+            <div class="sec">
+                <h5>Take a Refreshing Natural Shower at Ravana Falls</h5>
+                <img src="8.jpg" alt="secondary" style="width: 100px;">
+                <p>Ravana Falls may be smaller than Diyaluma, but it’s still jaw-droppingly beautiful. The falls are made up of three tiers, with water cascading between several rock pools, creating the perfect place to swim </p>
+            </div>
+        </div>
+    </div>
+<!-- Add more images here -->
+
+
+          <div class="form-container">
+
+            <h2>Contact Form</h2>
+            <form id="contactForm" onsubmit="validateForm(event)">
+              <div class="form-group">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="name" class="form-input" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+                <span id="emailError" class="form-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="message" name="message" class="form-input" rows="4" required></textarea>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+          </div>     
+<section id="local-gallery">
+
+    <script src="script.js"></script>
+
+</section>
+
+
+    <footer id="footer">
+        <p>ViSit ElLa SrI lAnKa</p>
+        <div class="social">
+            <a href="#"><i class="icono-facebook"></i></a>
+            <a href="#"><i class="icono-instagram"></i></a>
+            <a href="#"><i class="icono-linkedIn"></i></a>
+        </div>
+        <p class="email"><span><b>Email: </b></span>ViSitElLaSrIlAnKa@gmail.com</p>
+        <p class="last">CopyRight by ViSit ElLa SrI lAnKa</p>
+    </footer>
+
+    <div class="vdio">
+        <video width="100%" height="370" controls>
+            <source src="100.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>  
+        </div> 
+     
+    
+</body>
+</html>
